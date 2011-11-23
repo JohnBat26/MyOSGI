@@ -6,11 +6,12 @@ import org.osgi.framework.BundleContext;
 
 public class Activator implements BundleActivator {
     public void start(BundleContext ctx) {
-        Greeting.instance = new Greeting("lifecycle");
+        ctx.registerService(Greeting.class.getName(),
+                new GreetingImpl("service"), null);
     }
 
     public void stop(BundleContext ctx) {
-        Greeting.instance = null;
+        GreetingImpl.instance = null;
     }
 }
 
