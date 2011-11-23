@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Felix">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../../install/java_install/OSGI/felix-framework-4.0.1/bin" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../../install/java_install/OSGI/felix-framework-4.0.1/bin" recursive="false" />
+  </library>
+</component>
